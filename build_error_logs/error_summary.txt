@@ -7,10 +7,24 @@ No CMake errors
 No ninja errors
 
 -- C++ COMPILATION ERRORS --
+<<<<<<< Updated upstream
+=======
+     ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-hdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+     ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-hdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+     ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+     ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+>>>>>>> Stashed changes
      ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
      ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
      ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
      ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+<<<<<<< Updated upstream
+=======
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-hdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-hdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+>>>>>>> Stashed changes
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
@@ -180,7 +194,11 @@ Merging uses-sdk with lower [androidx.print:print:1.0.0] AndroidManifest.xml:20:
 -- BUILD TASK FAILURES --
 > Task :app:processDebugResources FAILED
 FAILURE: Build failed with an exception.
+<<<<<<< Updated upstream
 BUILD FAILED in 44s
+=======
+BUILD FAILED in 1m 21s
+>>>>>>> Stashed changes
 
 -- EXCEPTION STACK TRACES --
 * Exception is:
@@ -230,14 +248,28 @@ Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionExcept
 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
 --
 Caused by: com.android.builder.internal.aapt.v2.Aapt2Exception: Android resource linking failed
+<<<<<<< Updated upstream
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
     
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
     
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+=======
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-hdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+>>>>>>> Stashed changes
     
 ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
     
+<<<<<<< Updated upstream
+=======
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+    
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+    
+ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipmap-xxhdpi/ic_launcher.xml: AAPT: error: <adaptive-icon> elements require a sdk version of at least 26.
+    
+--
+>>>>>>> Stashed changes
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create(Aapt2Exception.kt:45)
 	at com.android.builder.internal.aapt.v2.Aapt2Exception$Companion.create$default(Aapt2Exception.kt:33)
 	at com.android.build.gradle.internal.res.Aapt2ErrorUtils.rewriteException(Aapt2ErrorUtils.kt:262)
