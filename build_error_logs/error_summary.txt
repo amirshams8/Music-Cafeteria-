@@ -180,7 +180,11 @@ ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/AndroidM
 -- BUILD TASK FAILURES --
 > Task :app:processDebugResources FAILED
 FAILURE: Build failed with an exception.
+<<<<<<< Updated upstream
 BUILD FAILED in 50s
+=======
+BUILD FAILED in 1m 19s
+>>>>>>> Stashed changes
 
 -- EXCEPTION STACK TRACES --
 * Exception is:
