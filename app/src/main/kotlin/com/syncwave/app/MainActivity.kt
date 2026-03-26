@@ -27,7 +27,10 @@ class MainActivity : AppCompatActivity() {
 
     private val serverUrl = BuildConfig.SERVER_URL
 
+    // Tracks whether JS has explicitly enabled background play
+    private var bgPlayEnabled = false
     private var bgServiceBound = false
+
     private val bgServiceConnection = object : ServiceConnection {
         override fun onServiceConnected(name: ComponentName?, binder: IBinder?) { bgServiceBound = true }
         override fun onServiceDisconnected(name: ComponentName?) { bgServiceBound = false }
@@ -67,7 +70,8 @@ class MainActivity : AppCompatActivity() {
             databaseEnabled                  = true
         }
 
-        webView.addJavascriptInterface(AndroidBridge(this), "AndroidBridge")
+        // Pass `this` so AndroidBridge can call startBgService / stopBgService
+        webView.addJavascriptInterface(AndroidBridge(this, this), "AndroidBridge")
 
         webView.webViewClient = object : WebViewClient() {
             override fun onPageStarted(view: WebView?, url: String?, favicon: android.graphics.Bitmap?) {
@@ -147,15 +151,15 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         webView.onResume()
         webView.resumeTimers()
-        stopBgService()
+        // Stop service only if user hasn't explicitly enabled bg play
+        if (!bgPlayEnabled) stopBgService()
     }
 
     override fun onPause() {
         super.onPause()
-        // ── DO NOT call webView.onPause() ──
-        // That suspends the WebView renderer and kills audio.
-        // We start a foreground service instead to keep the process alive.
-        startBgService()
+        // Start service only if user explicitly enabled bg play
+        if (bgPlayEnabled) startBgService()
+        // DO NOT call webView.onPause() — suspends the renderer and kills audio
     }
 
     override fun onDestroy() {
@@ -165,7 +169,9 @@ class MainActivity : AppCompatActivity() {
         stopBgService()
     }
 
-    private fun startBgService() {
+    // Public so AndroidBridge can call them from JS
+    fun startBgService() {
+        bgPlayEnabled = true
         val intent = Intent(this, AudioForegroundService::class.java)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForegroundService(intent)
@@ -177,7 +183,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun stopBgService() {
+    fun stopBgService() {
+        bgPlayEnabled = false
         try {
             if (bgServiceBound) {
                 unbindService(bgServiceConnection)
@@ -187,6 +194,7 @@ class MainActivity : AppCompatActivity() {
         stopService(Intent(this, AudioForegroundService::class.java))
     }
 
+    @Suppress("OVERRIDE_DEPRECATION")
     override fun onBackPressed() {
         if (webView.canGoBack()) webView.goBack() else super.onBackPressed()
     }
