@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 Transforming fragment-1.3.6.aar (androidx.fragment:fragment:1.3.6) with DexingOutputSplitTransform
+=======
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/6ca4fe34ae6d7ae82d1b03a5c31092d4/transformed/fragment-1.3.6-runtime is not up-to-date because:
+  No history is available.
+>>>>>>> Stashed changes
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/4f575224d28c673b120a6816486953cd/transformed/jetified-activity-1.8.0-runtime.jar because:
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/4f575224d28c673b120a6816486953cd/transformed/jetified-activity-1.8.0-runtime.jar is not up-to-date because:
@@ -7,6 +12,10 @@ Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/90cb491ddb5a2b182b06e055caa12beb/transformed/drawerlayout-1.1.1-runtime.jar is not up-to-date because:
   No history is available.
+<<<<<<< Updated upstream
+=======
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with DexingNoClasspathTransform
+>>>>>>> Stashed changes
 Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with DexingNoClasspathTransform
 Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4f575224d28c673b120a6816486953cd/transformed/jetified-activity-1.8.0-runtime.jar because:
   Build cache is disabled
@@ -14,17 +23,27 @@ DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4f575224d28
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4f575224d28c673b120a6816486953cd/transformed/jetified-activity-1.8.0-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/4f575224d28c673b120a6816486953cd/transformed/jetified-activity-1.8.0-runtime.jar'
+<<<<<<< Updated upstream
 Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with DexingNoClasspathTransform
+=======
+>>>>>>> Stashed changes
 Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/90cb491ddb5a2b182b06e055caa12beb/transformed/drawerlayout-1.1.1-runtime.jar because:
   Build cache is disabled
 DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/90cb491ddb5a2b182b06e055caa12beb/transformed/drawerlayout-1.1.1-runtime.jar is not up-to-date because:
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/90cb491ddb5a2b182b06e055caa12beb/transformed/drawerlayout-1.1.1-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/90cb491ddb5a2b182b06e055caa12beb/transformed/drawerlayout-1.1.1-runtime.jar'
+<<<<<<< Updated upstream
 Transforming appcompat-1.6.1.aar (androidx.appcompat:appcompat:1.6.1) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime is not up-to-date because:
+=======
+Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime is not up-to-date because:
+>>>>>>> Stashed changes
   No history is available.
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/0565818c178363e7dbbabec211d177dd/transformed/coordinatorlayout-1.1.0-runtime.jar because:
   Build cache is disabled
@@ -37,10 +56,17 @@ DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0565818c178
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0565818c178363e7dbbabec211d177dd/transformed/coordinatorlayout-1.1.0-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/0565818c178363e7dbbabec211d177dd/transformed/coordinatorlayout-1.1.0-runtime.jar'
+<<<<<<< Updated upstream
 Transforming drawerlayout-1.1.1.aar (androidx.drawerlayout:drawerlayout:1.1.1) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime is not up-to-date because:
+=======
+Transforming appcompat-1.6.1.aar (androidx.appcompat:appcompat:1.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime is not up-to-date because:
+>>>>>>> Stashed changes
   No history is available.
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/47e358deb9cdc6abb71c11fa9ac292f6/transformed/dynamicanimation-1.0.0-runtime.jar because:
   Build cache is disabled
@@ -53,10 +79,17 @@ DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/47e358deb9c
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/47e358deb9cdc6abb71c11fa9ac292f6/transformed/dynamicanimation-1.0.0-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/47e358deb9cdc6abb71c11fa9ac292f6/transformed/dynamicanimation-1.0.0-runtime.jar'
+<<<<<<< Updated upstream
 Transforming dynamicanimation-1.0.0.aar (androidx.dynamicanimation:dynamicanimation:1.0.0) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime is not up-to-date because:
+=======
+Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime is not up-to-date because:
+>>>>>>> Stashed changes
   No history is available.
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/c69e3a58a0fe55b26f1df53242fb4b46/transformed/transition-1.2.0-runtime.jar because:
   Build cache is disabled
@@ -85,10 +118,17 @@ DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/70971ddf78a
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/70971ddf78a9547564af461f885abbde/transformed/vectordrawable-animated-1.1.0-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/70971ddf78a9547564af461f885abbde/transformed/vectordrawable-animated-1.1.0-runtime.jar'
+<<<<<<< Updated upstream
 Transforming activity-1.8.0.aar (androidx.activity:activity:1.8.0) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime is not up-to-date because:
+=======
+Transforming dynamicanimation-1.0.0.aar (androidx.dynamicanimation:dynamicanimation:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime is not up-to-date because:
+>>>>>>> Stashed changes
   No history is available.
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/b56359d19e42e1d47d7d7ea077fc1afb/transformed/vectordrawable-1.1.0-runtime.jar because:
   Build cache is disabled
@@ -101,6 +141,7 @@ DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/b56359d19e4
   No history is available.
 The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/b56359d19e42e1d47d7d7ea077fc1afb/transformed/vectordrawable-1.1.0-runtime.jar.
 Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/b56359d19e42e1d47d7d7ea077fc1afb/transformed/vectordrawable-1.1.0-runtime.jar'
+<<<<<<< Updated upstream
 Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/19efb932113c49e7ae0487d27b8dbc9e/transformed/vectordrawable-1.1.0-runtime because:
   Build cache is disabled
@@ -128,6 +169,35 @@ Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/847773612896f00ff8d84cc6dfdf0cec/transformed/legacy-support-core-utils-1.0.0-runtime.jar is not up-to-date because:
   No history is available.
+=======
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/41352e2da77efd066bee0d74449a046b/transformed/vectordrawable-animated-1.1.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/41352e2da77efd066bee0d74449a046b/transformed/vectordrawable-animated-1.1.0-runtime is not up-to-date because:
+  No history is available.
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingNoClasspathTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingOutputSplitTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/19efb932113c49e7ae0487d27b8dbc9e/transformed/vectordrawable-1.1.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/19efb932113c49e7ae0487d27b8dbc9e/transformed/vectordrawable-1.1.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/847773612896f00ff8d84cc6dfdf0cec/transformed/legacy-support-core-utils-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/847773612896f00ff8d84cc6dfdf0cec/transformed/legacy-support-core-utils-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/28cb4d46aef321041aa66217f02cf706/transformed/viewpager-1.0.0-runtime.jar'
+>>>>>>> Stashed changes
 Transforming legacy-support-core-utils-1.0.0.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with DexingNoClasspathTransform
 Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/847773612896f00ff8d84cc6dfdf0cec/transformed/legacy-support-core-utils-1.0.0-runtime.jar because:
   Build cache is disabled
@@ -225,10 +295,15 @@ Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/tra
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/db1262a3fdb1c8da0e1a90f98279cecd/transformed/material-1.11.0-runtime is not up-to-date because:
   No history is available.
 Transforming core-1.12.0.aar (androidx.core:core:1.12.0) with DexingOutputSplitTransform
+<<<<<<< Updated upstream
+=======
+Transforming core-1.12.0.aar (androidx.core:core:1.12.0) with DexingOutputSplitTransform
+>>>>>>> Stashed changes
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/689b43b31eb151a268930dacdd19d407/transformed/core-1.12.0-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/689b43b31eb151a268930dacdd19d407/transformed/core-1.12.0-runtime is not up-to-date because:
   No history is available.
+<<<<<<< Updated upstream
 Transforming core-1.12.0.aar (androidx.core:core:1.12.0) with DexingOutputSplitTransform
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar because:
   Build cache is disabled
@@ -294,11 +369,91 @@ Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar is not up-to-date because:
   No history is available.
+=======
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar because:
+  Build cache is disabled
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming lifecycle-process-2.6.1.aar (androidx.lifecycle:lifecycle-process:2.6.1) with DexingNoClasspathTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with DexingNoClasspathTransform
+Transforming lifecycle-livedata-core-2.6.1.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/67ced7357d28ae5e4bc868ee055aa7d4/transformed/jetified-savedstate-1.2.1-runtime.jar'
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/22c367891e5f11a8b9b90fef6bd5d680/transformed/jetified-lifecycle-process-2.6.1-runtime.jar'
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/3b5bf06bb75f877c2bd3b09efe2efbdc/transformed/lifecycle-livedata-core-2.6.1-runtime.jar'
+Transforming lifecycle-livedata-2.6.1.aar (androidx.lifecycle:lifecycle-livedata:2.6.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/0325afa769c171cf8363acad4fe51091/transformed/lifecycle-livedata-2.6.1-runtime.jar'
+Transforming lifecycle-livedata-core-2.6.1.aar (androidx.lifecycle:lifecycle-livedata-core:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/1fff0bd82e92d8b3e7afb0a188eb6e6e/transformed/lifecycle-livedata-core-2.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/1fff0bd82e92d8b3e7afb0a188eb6e6e/transformed/lifecycle-livedata-core-2.6.1-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.1/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.1.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.1/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.1.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.1/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.1.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.6.1/10f354fdb64868baecd67128560c5a0d6312c495/lifecycle-common-2.6.1.jar'
+Transforming lifecycle-process-2.6.1.aar (androidx.lifecycle:lifecycle-process:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/560380dfbee0c09ec09669f38a79b4cc/transformed/jetified-lifecycle-process-2.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/560380dfbee0c09ec09669f38a79b4cc/transformed/jetified-lifecycle-process-2.6.1-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming lifecycle-viewmodel-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar'
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/44c318e378a263e6726f7d4805f1e22c/transformed/jetified-savedstate-1.2.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/44c318e378a263e6726f7d4805f1e22c/transformed/jetified-savedstate-1.2.1-runtime is not up-to-date because:
+  No history is available.
+Transforming lifecycle-viewmodel-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.1) with DexingNoClasspathTransform
+>>>>>>> Stashed changes
 Transforming lifecycle-livedata-2.6.1.aar (androidx.lifecycle:lifecycle-livedata:2.6.1) with DexingOutputSplitTransform
 Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fda5aee3ef540d8438e90957e7426e9b/transformed/lifecycle-livedata-2.6.1-runtime because:
   Build cache is disabled
 DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fda5aee3ef540d8438e90957e7426e9b/transformed/lifecycle-livedata-2.6.1-runtime is not up-to-date because:
   No history is available.
+<<<<<<< Updated upstream
 Transforming lifecycle-viewmodel-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.1) with DexingNoClasspathTransform
 Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/54d9da7aaf49b0d1fa23d254deff6287/transformed/lifecycle-viewmodel-2.6.1-runtime.jar because:
   Build cache is disabled
@@ -332,11 +487,43 @@ DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/78dc32c232a
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar because:
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar is not up-to-date because:
+=======
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming lifecycle-runtime-2.6.1.aar (androidx.lifecycle:lifecycle-runtime:2.6.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/98fadcc320527a3edbff612218528de0/transformed/lifecycle-runtime-2.6.1-runtime.jar'
+Transforming lifecycle-runtime-2.6.1.aar (androidx.lifecycle:lifecycle-runtime:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/aeb73ca3346c0a1cc93f1214ab26cff1/transformed/lifecycle-runtime-2.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/aeb73ca3346c0a1cc93f1214ab26cff1/transformed/lifecycle-runtime-2.6.1-runtime is not up-to-date because:
+  No history is available.
+Transforming lifecycle-viewmodel-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.1) with DexingOutputSplitTransform
+Transforming lifecycle-viewmodel-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/78dc32c232a555c3deac87a92b4f4a3a/transformed/lifecycle-viewmodel-2.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/78dc32c232a555c3deac87a92b4f4a3a/transformed/lifecycle-viewmodel-2.6.1-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar is not up-to-date because:
+>>>>>>> Stashed changes
   No history is available.
 Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar because:
   Build cache is disabled
 IdentityTransform: /home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar is not up-to-date because:
   No history is available.
+<<<<<<< Updated upstream
 Transforming lifecycle-viewmodel-savedstate-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1) with DexingNoClasspathTransform
 Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar because:
   Build cache is disabled
@@ -741,6 +928,402 @@ The input changes require a full rebuild for incremental task ':app:mergeExtDexD
 Watching 185 directories to track changes
 Merging to '/home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/build/intermediates/dex/debug/mergeExtDexDebug' with D8 from all or a subset of dex files in /home/runner/.gradle/caches/transforms-3/db1262a3fdb1c8da0e1a90f98279cecd/transformed/material-1.11.0-runtime/material-1.11.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/8bb0cf2f52a214c3da1654af8f3de0c2/transformed/jetified-appcompat-resources-1.6.1-runtime/jetified-appcompat-resources-1.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/01a7743c3c1be492331e3ac7b97aa521/transformed/constraintlayout-2.0.1-runtime/constraintlayout-2.0.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime/appcompat-1.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/ea7705250d120f0fb9506cd6ecaec1f2/transformed/swiperefreshlayout-1.1.0-runtime/swiperefreshlayout-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/fb918ff29162267bcd9487f8a1994fc2/transformed/jetified-emoji2-views-helper-1.2.0-runtime/jetified-emoji2-views-helper-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/87237778b6e41853d34bfa8d4f5af404/transformed/jetified-emoji2-1.2.0-runtime/jetified-emoji2-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/5101f4e9f65aea5abba48e007d12d29c/transformed/jetified-viewpager2-1.0.0-runtime/jetified-viewpager2-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6ca4fe34ae6d7ae82d1b03a5c31092d4/transformed/fragment-1.3.6-runtime/fragment-1.3.6-runtime_dex, /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime/jetified-activity-1.8.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime/drawerlayout-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/bf3f4f51cb2cde06893edb7891523209/transformed/coordinatorlayout-1.1.0-runtime/coordinatorlayout-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime/dynamicanimation-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/a9c0d5938415a8eab4a595dc05407816/transformed/transition-1.2.0-runtime/transition-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/41352e2da77efd066bee0d74449a046b/transformed/vectordrawable-animated-1.1.0-runtime/vectordrawable-animated-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/19efb932113c49e7ae0487d27b8dbc9e/transformed/vectordrawable-1.1.0-runtime/vectordrawable-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/2ec6281480c8715813d811060c074566/transformed/viewpager-1.0.0-runtime/viewpager-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/29832725d5d00550520260ad3031ce3c/transformed/legacy-support-core-utils-1.0.0-runtime/legacy-support-core-utils-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6ef8ca7d2984a6a71f61ede1668c963b/transformed/loader-1.0.0-runtime/loader-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/eee9ef9e31c0dafd1dd12ddbe1e004d5/transformed/recyclerview-1.1.0-runtime/recyclerview-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/44180c6e674f04bfc5e0f7a7e09d08a5/transformed/customview-1.1.0-runtime/customview-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/689b43b31eb151a268930dacdd19d407/transformed/core-1.12.0-runtime/core-1.12.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/44c318e378a263e6726f7d4805f1e22c/transformed/jetified-savedstate-1.2.1-runtime/jetified-savedstate-1.2.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/560380dfbee0c09ec09669f38a79b4cc/transformed/jetified-lifecycle-process-2.6.1-runtime/jetified-lifecycle-process-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/1fff0bd82e92d8b3e7afb0a188eb6e6e/transformed/lifecycle-livedata-core-2.6.1-runtime/lifecycle-livedata-core-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/fda5aee3ef540d8438e90957e7426e9b/transformed/lifecycle-livedata-2.6.1-runtime/lifecycle-livedata-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/f3efab21501e8275fc7a638ba7a63e8f/transformed/lifecycle-common-2.6.1/lifecycle-common-2.6.1_dex, /home/runner/.gradle/caches/transforms-3/78dc32c232a555c3deac87a92b4f4a3a/transformed/lifecycle-viewmodel-2.6.1-runtime/lifecycle-viewmodel-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/aeb73ca3346c0a1cc93f1214ab26cff1/transformed/lifecycle-runtime-2.6.1-runtime/lifecycle-runtime-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/5b0018bd609efc3fd85fadf659e40cc9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/b0550b3e996de04d6badfad3794e130f/transformed/jetified-core-ktx-1.12.0-runtime/jetified-core-ktx-1.12.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/d50b00825603878d5021aa12bd44d35b/transformed/jetified-annotation-experimental-1.3.0-runtime/jetified-annotation-experimental-1.3.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b1baf4922cf62e705e2a44746dc3d8e9/transformed/cursoradapter-1.0.0-runtime/cursoradapter-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/dbcc4a7d01a4ac3cc8ff7b6de94cc13d/transformed/jetified-resourceinspection-annotation-1.0.1/jetified-resourceinspection-annotation-1.0.1_dex, /home/runner/.gradle/caches/transforms-3/eb9ec3021cc5d61d6cb59e336e2b5776/transformed/interpolator-1.0.0-runtime/interpolator-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/d4e7dcb04c1846d24ed25a78b2c7ee4e/transformed/cardview-1.0.0-runtime/cardview-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/ffa49280f560b7e9dfe2be6df9b482c5/transformed/versionedparcelable-1.1.1-runtime/versionedparcelable-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/531509f356f12fe74f92d87472748285/transformed/collection-1.1.0/collection-1.1.0_dex, /home/runner/.gradle/caches/transforms-3/a7656a0ba140b3869d0bc3d0af0814ea/transformed/jetified-profileinstaller-1.3.0-runtime/jetified-profileinstaller-1.3.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/7b2593f3fc9d243be31343f6ad50c2af/transformed/jetified-startup-runtime-1.1.1-runtime/jetified-startup-runtime-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/a00aa683b53e6f09453df4885fa4e937/transformed/jetified-tracing-1.0.0-runtime/jetified-tracing-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b074bae8c5a34670413fca90512bae48/transformed/core-runtime-2.2.0-runtime/core-runtime-2.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b879d99509ecce1344345d906f7822a5/transformed/core-common-2.2.0/core-common-2.2.0_dex, /home/runner/.gradle/caches/transforms-3/d245d764df716b594b8364f4da7aa4ad/transformed/jetified-concurrent-futures-1.1.0/jetified-concurrent-futures-1.1.0_dex, /home/runner/.gradle/caches/transforms-3/fe54a1fa4ec5e7a47ec1ed288bdce7c4/transformed/documentfile-1.0.0-runtime/documentfile-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/ea99f62b597fd509eead1c63020d559a/transformed/localbroadcastmanager-1.0.0-runtime/localbroadcastmanager-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/86e702602053bf07e7763d5b0dd202e5/transformed/print-1.0.0-runtime/print-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/791ffc7b8c84410fc7552ae20fda9ae2/transformed/jetified-annotation-jvm-1.6.0/jetified-annotation-jvm-1.6.0_dex, /home/runner/.gradle/caches/transforms-3/f1b46d21cb5b6379fd8e148f16cc46e0/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4/jetified-kotlinx-coroutines-core-jvm-1.6.4_dex, /home/runner/.gradle/caches/transforms-3/cdce648cdcb047eabd946150248cd90c/transformed/jetified-kotlinx-coroutines-android-1.6.4/jetified-kotlinx-coroutines-android-1.6.4_dex, /home/runner/.gradle/caches/transforms-3/1835cbadb0e151ba5e1e3437cee9a3e0/transformed/jetified-kotlin-stdlib-1.9.22/jetified-kotlin-stdlib-1.9.22_dex, /home/runner/.gradle/caches/transforms-3/4b3318b731328e3856545f07099cc4e0/transformed/jetified-annotations-13.0/jetified-annotations-13.0_dex, /home/runner/.gradle/caches/transforms-3/336ce77e9c313bbdaf5a79a9c42e9b50/transformed/jetified-error_prone_annotations-2.15.0/jetified-error_prone_annotations-2.15.0_dex, /home/runner/.gradle/caches/transforms-3/e797d0d12256d86e368c2facef9be9e3/transformed/constraintlayout-solver-2.0.1/constraintlayout-solver-2.0.1_dex, /home/runner/.gradle/caches/transforms-3/0186f423e7fd8082dda9fab8afa8501d/transformed/jetified-listenablefuture-1.0/jetified-listenablefuture-1.0_dex, and from all global synthetics files in 
 Watching 186 directories to track changes
+=======
+Transforming annotation-experimental-1.3.0.aar (androidx.annotation:annotation-experimental:1.3.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar because:
+  Build cache is disabled
+Transforming lifecycle-viewmodel-savedstate-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1) with DexingNoClasspathTransform
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/a02e4501733f555f8dc96d319d92b6d5/transformed/jetified-annotation-experimental-1.3.0-runtime.jar'
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/3c6a6dd589c0699bd7712ff9366fcd49/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime.jar'
+Transforming core-ktx-1.12.0.aar (androidx.core:core-ktx:1.12.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/f3fd5dfb5d6e083c3e14d3eee8850c9c/transformed/jetified-core-ktx-1.12.0-runtime.jar'
+Transforming annotation-experimental-1.3.0.aar (androidx.annotation:annotation-experimental:1.3.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d50b00825603878d5021aa12bd44d35b/transformed/jetified-annotation-experimental-1.3.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d50b00825603878d5021aa12bd44d35b/transformed/jetified-annotation-experimental-1.3.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/5f0e0c6e3d325a41fe3da15fbed79e5a/transformed/cursoradapter-1.0.0-runtime.jar'
+Transforming lifecycle-common-2.6.1.jar (androidx.lifecycle:lifecycle-common:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f3efab21501e8275fc7a638ba7a63e8f/transformed/lifecycle-common-2.6.1 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f3efab21501e8275fc7a638ba7a63e8f/transformed/lifecycle-common-2.6.1 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3a06d5add9e7df238c8340a012203939/transformed/jetified-resourceinspection-annotation-1.0.1.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3a06d5add9e7df238c8340a012203939/transformed/jetified-resourceinspection-annotation-1.0.1.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/3a06d5add9e7df238c8340a012203939/transformed/jetified-resourceinspection-annotation-1.0.1.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/3a06d5add9e7df238c8340a012203939/transformed/jetified-resourceinspection-annotation-1.0.1.jar'
+Transforming resourceinspection-annotation-1.0.1.jar (androidx.resourceinspection:resourceinspection-annotation:1.0.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/dbcc4a7d01a4ac3cc8ff7b6de94cc13d/transformed/jetified-resourceinspection-annotation-1.0.1 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/dbcc4a7d01a4ac3cc8ff7b6de94cc13d/transformed/jetified-resourceinspection-annotation-1.0.1 is not up-to-date because:
+  No history is available.
+Transforming cursoradapter-1.0.0.aar (androidx.cursoradapter:cursoradapter:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b1baf4922cf62e705e2a44746dc3d8e9/transformed/cursoradapter-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b1baf4922cf62e705e2a44746dc3d8e9/transformed/cursoradapter-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Transforming lifecycle-viewmodel-savedstate-2.6.1.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/5b0018bd609efc3fd85fadf659e40cc9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/5b0018bd609efc3fd85fadf659e40cc9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime is not up-to-date because:
+  No history is available.
+Transforming core-ktx-1.12.0.aar (androidx.core:core-ktx:1.12.0) with DexingOutputSplitTransform
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar because:
+  Build cache is disabled
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b0550b3e996de04d6badfad3794e130f/transformed/jetified-core-ktx-1.12.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b0550b3e996de04d6badfad3794e130f/transformed/jetified-core-ktx-1.12.0-runtime is not up-to-date because:
+  No history is available.
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with DexingNoClasspathTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with DexingNoClasspathTransform
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/50be50ce5eaa7fffe1f4325a731a07c2/transformed/interpolator-1.0.0-runtime.jar'
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/4d24146cfdaa19fb0dac6c4bde3d0266/transformed/cardview-1.0.0-runtime.jar'
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with DexingOutputSplitTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/eb9ec3021cc5d61d6cb59e336e2b5776/transformed/interpolator-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/eb9ec3021cc5d61d6cb59e336e2b5776/transformed/interpolator-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar'
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/51c2ce8b05c873d458a5a4737a51c4ab/transformed/versionedparcelable-1.1.1-runtime.jar'
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming profileinstaller-1.3.0.aar (androidx.profileinstaller:profileinstaller:1.3.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/10da83248a3aff0ebd8572ba818f7513/transformed/jetified-profileinstaller-1.3.0-runtime.jar'
+Transforming cardview-1.0.0.aar (androidx.cardview:cardview:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d4e7dcb04c1846d24ed25a78b2c7ee4e/transformed/cardview-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d4e7dcb04c1846d24ed25a78b2c7ee4e/transformed/cardview-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/757a42e526e0a3725e7bdbf2391e19af/transformed/jetified-startup-runtime-1.1.1-runtime.jar'
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/7b2593f3fc9d243be31343f6ad50c2af/transformed/jetified-startup-runtime-1.1.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/7b2593f3fc9d243be31343f6ad50c2af/transformed/jetified-startup-runtime-1.1.1-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/269ffea0bbb96058b88b6c5215e566ae/transformed/jetified-tracing-1.0.0-runtime.jar'
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/a00aa683b53e6f09453df4885fa4e937/transformed/jetified-tracing-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/a00aa683b53e6f09453df4885fa4e937/transformed/jetified-tracing-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/1b0e603168a50f20d39ea113511f29f9/transformed/core-runtime-2.2.0-runtime.jar'
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/ffa49280f560b7e9dfe2be6df9b482c5/transformed/versionedparcelable-1.1.1-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/ffa49280f560b7e9dfe2be6df9b482c5/transformed/versionedparcelable-1.1.1-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.2.0/5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3/core-common-2.2.0.jar'
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b074bae8c5a34670413fca90512bae48/transformed/core-runtime-2.2.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b074bae8c5a34670413fca90512bae48/transformed/core-runtime-2.2.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c1c3f3b958380e00c7fbe18a3abdd9a1/transformed/jetified-concurrent-futures-1.1.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c1c3f3b958380e00c7fbe18a3abdd9a1/transformed/jetified-concurrent-futures-1.1.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c1c3f3b958380e00c7fbe18a3abdd9a1/transformed/jetified-concurrent-futures-1.1.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/c1c3f3b958380e00c7fbe18a3abdd9a1/transformed/jetified-concurrent-futures-1.1.0.jar'
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b879d99509ecce1344345d906f7822a5/transformed/core-common-2.2.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/b879d99509ecce1344345d906f7822a5/transformed/core-common-2.2.0 is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming documentfile-1.0.0.aar (androidx.documentfile:documentfile:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/e122c70e683d2745c1dd5dd9ae124258/transformed/documentfile-1.0.0-runtime.jar'
+Transforming profileinstaller-1.3.0.aar (androidx.profileinstaller:profileinstaller:1.3.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/a7656a0ba140b3869d0bc3d0af0814ea/transformed/jetified-profileinstaller-1.3.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/a7656a0ba140b3869d0bc3d0af0814ea/transformed/jetified-profileinstaller-1.3.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming localbroadcastmanager-1.0.0.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/a764d042b7253a8cdc37fe385c88bade/transformed/localbroadcastmanager-1.0.0-runtime.jar'
+Transforming documentfile-1.0.0.aar (androidx.documentfile:documentfile:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fe54a1fa4ec5e7a47ec1ed288bdce7c4/transformed/documentfile-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fe54a1fa4ec5e7a47ec1ed288bdce7c4/transformed/documentfile-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for IdentityTransform: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar because:
+  Build cache is disabled
+IdentityTransform: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+Transforming print-1.0.0.aar (androidx.print:print:1.0.0) with DexingNoClasspathTransform
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar'
+Transforming concurrent-futures-1.1.0.jar (androidx.concurrent:concurrent-futures:1.1.0) with DexingOutputSplitTransform
+Transforming collection-1.1.0.jar (androidx.collection:collection:1.1.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d245d764df716b594b8364f4da7aa4ad/transformed/jetified-concurrent-futures-1.1.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/d245d764df716b594b8364f4da7aa4ad/transformed/jetified-concurrent-futures-1.1.0 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/531509f356f12fe74f92d87472748285/transformed/collection-1.1.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/531509f356f12fe74f92d87472748285/transformed/collection-1.1.0 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e4a31934de2e8cc0d5afd924c19f41b2/transformed/jetified-annotation-jvm-1.6.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e4a31934de2e8cc0d5afd924c19f41b2/transformed/jetified-annotation-jvm-1.6.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/e4a31934de2e8cc0d5afd924c19f41b2/transformed/jetified-annotation-jvm-1.6.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/e4a31934de2e8cc0d5afd924c19f41b2/transformed/jetified-annotation-jvm-1.6.0.jar'
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar'
+Transforming localbroadcastmanager-1.0.0.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/ea99f62b597fd509eead1c63020d559a/transformed/localbroadcastmanager-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/ea99f62b597fd509eead1c63020d559a/transformed/localbroadcastmanager-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/fc4b49acbf473e902c47347546f3a58b/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/fc4b49acbf473e902c47347546f3a58b/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/fc4b49acbf473e902c47347546f3a58b/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/fc4b49acbf473e902c47347546f3a58b/transformed/jetified-kotlinx-coroutines-android-1.6.4.jar'
+Transforming annotation-jvm-1.6.0.jar (androidx.annotation:annotation-jvm:1.6.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/791ffc7b8c84410fc7552ae20fda9ae2/transformed/jetified-annotation-jvm-1.6.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/791ffc7b8c84410fc7552ae20fda9ae2/transformed/jetified-annotation-jvm-1.6.0 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/918ab4043f256c572503ab43e52cdb24/transformed/jetified-kotlin-stdlib-jdk8-1.8.22.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/918ab4043f256c572503ab43e52cdb24/transformed/jetified-kotlin-stdlib-jdk8-1.8.22.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/918ab4043f256c572503ab43e52cdb24/transformed/jetified-kotlin-stdlib-jdk8-1.8.22.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/918ab4043f256c572503ab43e52cdb24/transformed/jetified-kotlin-stdlib-jdk8-1.8.22.jar'
+Transforming kotlin-stdlib-jdk8-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fbf0da0c2078980dc8187a64f8241005/transformed/jetified-kotlin-stdlib-jdk8-1.8.22 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/fbf0da0c2078980dc8187a64f8241005/transformed/jetified-kotlin-stdlib-jdk8-1.8.22 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c2b468a21965a9cec526180b49461350/transformed/jetified-kotlin-stdlib-jdk7-1.8.22.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c2b468a21965a9cec526180b49461350/transformed/jetified-kotlin-stdlib-jdk7-1.8.22.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/c2b468a21965a9cec526180b49461350/transformed/jetified-kotlin-stdlib-jdk7-1.8.22.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/c2b468a21965a9cec526180b49461350/transformed/jetified-kotlin-stdlib-jdk7-1.8.22.jar'
+Transforming kotlin-stdlib-jdk7-1.8.22.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/87148c3b8433c4e8ea4b847180bb30de/transformed/jetified-kotlin-stdlib-jdk7-1.8.22 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/87148c3b8433c4e8ea4b847180bb30de/transformed/jetified-kotlin-stdlib-jdk7-1.8.22 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/715e4f968e3f9f84ceec4e87fa1f7fda/transformed/jetified-kotlin-stdlib-1.9.22.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/715e4f968e3f9f84ceec4e87fa1f7fda/transformed/jetified-kotlin-stdlib-1.9.22.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/715e4f968e3f9f84ceec4e87fa1f7fda/transformed/jetified-kotlin-stdlib-1.9.22.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/715e4f968e3f9f84ceec4e87fa1f7fda/transformed/jetified-kotlin-stdlib-1.9.22.jar'
+INFO: D8: Stripped invalid locals information from 1 method.
+INFO: /home/runner/.gradle/caches/transforms-3/0e4f9926bda298d3d8875e1366aabb79/transformed/print-1.0.0-runtime.jar: D8: Methods with invalid locals information:
+  void androidx.print.PrintHelper$PrintUriAdapter$1.onPostExecute(android.graphics.Bitmap)
+  Information in locals-table is invalid with respect to the stack map table. Local refers to non-present stack map type for register: 2 with constraint OBJECT.
+INFO: D8: Some warnings are typically a sign of using an outdated Java toolchain. To fix, recompile the source with an updated toolchain.
+Transforming kotlinx-coroutines-android-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/cdce648cdcb047eabd946150248cd90c/transformed/jetified-kotlinx-coroutines-android-1.6.4 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/cdce648cdcb047eabd946150248cd90c/transformed/jetified-kotlinx-coroutines-android-1.6.4 is not up-to-date because:
+  No history is available.
+Transforming print-1.0.0.aar (androidx.print:print:1.0.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/86e702602053bf07e7763d5b0dd202e5/transformed/print-1.0.0-runtime because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/86e702602053bf07e7763d5b0dd202e5/transformed/print-1.0.0-runtime is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a01dcb8069a37b48302c49ab7e63b0e4/transformed/jetified-annotations-13.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a01dcb8069a37b48302c49ab7e63b0e4/transformed/jetified-annotations-13.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/a01dcb8069a37b48302c49ab7e63b0e4/transformed/jetified-annotations-13.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/a01dcb8069a37b48302c49ab7e63b0e4/transformed/jetified-annotations-13.0.jar'
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/8141892731a2478ad3da016994a1e970/transformed/jetified-error_prone_annotations-2.15.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/8141892731a2478ad3da016994a1e970/transformed/jetified-error_prone_annotations-2.15.0.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/8141892731a2478ad3da016994a1e970/transformed/jetified-error_prone_annotations-2.15.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/8141892731a2478ad3da016994a1e970/transformed/jetified-error_prone_annotations-2.15.0.jar'
+Transforming error_prone_annotations-2.15.0.jar (com.google.errorprone:error_prone_annotations:2.15.0) with DexingOutputSplitTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/336ce77e9c313bbdaf5a79a9c42e9b50/transformed/jetified-error_prone_annotations-2.15.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/336ce77e9c313bbdaf5a79a9c42e9b50/transformed/jetified-error_prone_annotations-2.15.0 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/4b3318b731328e3856545f07099cc4e0/transformed/jetified-annotations-13.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/4b3318b731328e3856545f07099cc4e0/transformed/jetified-annotations-13.0 is not up-to-date because:
+  No history is available.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.1/30988fe2d77f3fe3bf7551bb8a8b795fad7e7226/constraintlayout-solver-2.0.1.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.1/30988fe2d77f3fe3bf7551bb8a8b795fad7e7226/constraintlayout-solver-2.0.1.jar is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.1/30988fe2d77f3fe3bf7551bb8a8b795fad7e7226/constraintlayout-solver-2.0.1.jar.
+Caching disabled for DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/621fda9bfe310e50c954e78c9741824d/transformed/jetified-listenablefuture-1.0.jar because:
+  Build cache is disabled
+DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/621fda9bfe310e50c954e78c9741824d/transformed/jetified-listenablefuture-1.0.jar is not up-to-date because:
+  No history is available.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.1/30988fe2d77f3fe3bf7551bb8a8b795fad7e7226/constraintlayout-solver-2.0.1.jar'
+The input changes require a full rebuild for incremental DexingNoClasspathTransform: /home/runner/.gradle/caches/transforms-3/621fda9bfe310e50c954e78c9741824d/transformed/jetified-listenablefuture-1.0.jar.
+Running dexing transform non-incrementally for '/home/runner/.gradle/caches/transforms-3/621fda9bfe310e50c954e78c9741824d/transformed/jetified-listenablefuture-1.0.jar'
+Transforming listenablefuture-1.0.jar (com.google.guava:listenablefuture:1.0) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/0186f423e7fd8082dda9fab8afa8501d/transformed/jetified-listenablefuture-1.0 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/0186f423e7fd8082dda9fab8afa8501d/transformed/jetified-listenablefuture-1.0 is not up-to-date because:
+  No history is available.
+Transforming constraintlayout-solver-2.0.1.jar (androidx.constraintlayout:constraintlayout-solver:2.0.1) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/e797d0d12256d86e368c2facef9be9e3/transformed/constraintlayout-solver-2.0.1 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/e797d0d12256d86e368c2facef9be9e3/transformed/constraintlayout-solver-2.0.1 is not up-to-date because:
+  No history is available.
+INFO: D8: Stripped invalid locals information from 2 methods.
+INFO: /home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$10.collect(kotlinx.coroutines.flow.FlowCollector, kotlin.coroutines.Continuation)
+  Attempt to define local of type long as element$iv:java.lang.Object
+INFO: /home/runner/.gradle/caches/transforms-3/9d37a66af59ae57f9b0c31ab14b7873f/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$9.collect(kotlinx.coroutines.flow.FlowCollector, kotlin.coroutines.Continuation)
+  Attempt to define local of type int as element$iv:java.lang.Object
+INFO: D8: Some warnings are typically a sign of using an outdated Java toolchain. To fix, recompile the source with an updated toolchain.
+Transforming kotlinx-coroutines-core-jvm-1.6.4.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f1b46d21cb5b6379fd8e148f16cc46e0/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/f1b46d21cb5b6379fd8e148f16cc46e0/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4 is not up-to-date because:
+  No history is available.
+Transforming kotlin-stdlib-1.9.22.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.22) with DexingOutputSplitTransform
+Caching disabled for DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/1835cbadb0e151ba5e1e3437cee9a3e0/transformed/jetified-kotlin-stdlib-1.9.22 because:
+  Build cache is disabled
+DexingOutputSplitTransform: /home/runner/.gradle/caches/transforms-3/1835cbadb0e151ba5e1e3437cee9a3e0/transformed/jetified-kotlin-stdlib-1.9.22 is not up-to-date because:
+  No history is available.
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Task ':app:mergeExtDexDebug' is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental task ':app:mergeExtDexDebug'.
+Watching 186 directories to track changes
+Merging to '/home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/build/intermediates/dex/debug/mergeExtDexDebug' with D8 from all or a subset of dex files in /home/runner/.gradle/caches/transforms-3/db1262a3fdb1c8da0e1a90f98279cecd/transformed/material-1.11.0-runtime/material-1.11.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/8bb0cf2f52a214c3da1654af8f3de0c2/transformed/jetified-appcompat-resources-1.6.1-runtime/jetified-appcompat-resources-1.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/01a7743c3c1be492331e3ac7b97aa521/transformed/constraintlayout-2.0.1-runtime/constraintlayout-2.0.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/417a71d993ce34efd44e760ff8fbd1ce/transformed/appcompat-1.6.1-runtime/appcompat-1.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/ea7705250d120f0fb9506cd6ecaec1f2/transformed/swiperefreshlayout-1.1.0-runtime/swiperefreshlayout-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/fb918ff29162267bcd9487f8a1994fc2/transformed/jetified-emoji2-views-helper-1.2.0-runtime/jetified-emoji2-views-helper-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/87237778b6e41853d34bfa8d4f5af404/transformed/jetified-emoji2-1.2.0-runtime/jetified-emoji2-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/5101f4e9f65aea5abba48e007d12d29c/transformed/jetified-viewpager2-1.0.0-runtime/jetified-viewpager2-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6ca4fe34ae6d7ae82d1b03a5c31092d4/transformed/fragment-1.3.6-runtime/fragment-1.3.6-runtime_dex, /home/runner/.gradle/caches/transforms-3/f21d8c396d1a01d03fc3e5e6f515f2cc/transformed/jetified-activity-1.8.0-runtime/jetified-activity-1.8.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6163823cbfde4e87804fd22280b27374/transformed/drawerlayout-1.1.1-runtime/drawerlayout-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/bf3f4f51cb2cde06893edb7891523209/transformed/coordinatorlayout-1.1.0-runtime/coordinatorlayout-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/16f095d927b836a6ddf866f95e7d794e/transformed/dynamicanimation-1.0.0-runtime/dynamicanimation-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/a9c0d5938415a8eab4a595dc05407816/transformed/transition-1.2.0-runtime/transition-1.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/41352e2da77efd066bee0d74449a046b/transformed/vectordrawable-animated-1.1.0-runtime/vectordrawable-animated-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/19efb932113c49e7ae0487d27b8dbc9e/transformed/vectordrawable-1.1.0-runtime/vectordrawable-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/2ec6281480c8715813d811060c074566/transformed/viewpager-1.0.0-runtime/viewpager-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/29832725d5d00550520260ad3031ce3c/transformed/legacy-support-core-utils-1.0.0-runtime/legacy-support-core-utils-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/6ef8ca7d2984a6a71f61ede1668c963b/transformed/loader-1.0.0-runtime/loader-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/eee9ef9e31c0dafd1dd12ddbe1e004d5/transformed/recyclerview-1.1.0-runtime/recyclerview-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/44180c6e674f04bfc5e0f7a7e09d08a5/transformed/customview-1.1.0-runtime/customview-1.1.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/689b43b31eb151a268930dacdd19d407/transformed/core-1.12.0-runtime/core-1.12.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/44c318e378a263e6726f7d4805f1e22c/transformed/jetified-savedstate-1.2.1-runtime/jetified-savedstate-1.2.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/560380dfbee0c09ec09669f38a79b4cc/transformed/jetified-lifecycle-process-2.6.1-runtime/jetified-lifecycle-process-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/1fff0bd82e92d8b3e7afb0a188eb6e6e/transformed/lifecycle-livedata-core-2.6.1-runtime/lifecycle-livedata-core-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/fda5aee3ef540d8438e90957e7426e9b/transformed/lifecycle-livedata-2.6.1-runtime/lifecycle-livedata-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/f3efab21501e8275fc7a638ba7a63e8f/transformed/lifecycle-common-2.6.1/lifecycle-common-2.6.1_dex, /home/runner/.gradle/caches/transforms-3/78dc32c232a555c3deac87a92b4f4a3a/transformed/lifecycle-viewmodel-2.6.1-runtime/lifecycle-viewmodel-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/aeb73ca3346c0a1cc93f1214ab26cff1/transformed/lifecycle-runtime-2.6.1-runtime/lifecycle-runtime-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/5b0018bd609efc3fd85fadf659e40cc9/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime/jetified-lifecycle-viewmodel-savedstate-2.6.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/b0550b3e996de04d6badfad3794e130f/transformed/jetified-core-ktx-1.12.0-runtime/jetified-core-ktx-1.12.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/d50b00825603878d5021aa12bd44d35b/transformed/jetified-annotation-experimental-1.3.0-runtime/jetified-annotation-experimental-1.3.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b1baf4922cf62e705e2a44746dc3d8e9/transformed/cursoradapter-1.0.0-runtime/cursoradapter-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/dbcc4a7d01a4ac3cc8ff7b6de94cc13d/transformed/jetified-resourceinspection-annotation-1.0.1/jetified-resourceinspection-annotation-1.0.1_dex, /home/runner/.gradle/caches/transforms-3/eb9ec3021cc5d61d6cb59e336e2b5776/transformed/interpolator-1.0.0-runtime/interpolator-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/d4e7dcb04c1846d24ed25a78b2c7ee4e/transformed/cardview-1.0.0-runtime/cardview-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/ffa49280f560b7e9dfe2be6df9b482c5/transformed/versionedparcelable-1.1.1-runtime/versionedparcelable-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/531509f356f12fe74f92d87472748285/transformed/collection-1.1.0/collection-1.1.0_dex, /home/runner/.gradle/caches/transforms-3/a7656a0ba140b3869d0bc3d0af0814ea/transformed/jetified-profileinstaller-1.3.0-runtime/jetified-profileinstaller-1.3.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/7b2593f3fc9d243be31343f6ad50c2af/transformed/jetified-startup-runtime-1.1.1-runtime/jetified-startup-runtime-1.1.1-runtime_dex, /home/runner/.gradle/caches/transforms-3/a00aa683b53e6f09453df4885fa4e937/transformed/jetified-tracing-1.0.0-runtime/jetified-tracing-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b074bae8c5a34670413fca90512bae48/transformed/core-runtime-2.2.0-runtime/core-runtime-2.2.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/b879d99509ecce1344345d906f7822a5/transformed/core-common-2.2.0/core-common-2.2.0_dex, /home/runner/.gradle/caches/transforms-3/d245d764df716b594b8364f4da7aa4ad/transformed/jetified-concurrent-futures-1.1.0/jetified-concurrent-futures-1.1.0_dex, /home/runner/.gradle/caches/transforms-3/fe54a1fa4ec5e7a47ec1ed288bdce7c4/transformed/documentfile-1.0.0-runtime/documentfile-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/ea99f62b597fd509eead1c63020d559a/transformed/localbroadcastmanager-1.0.0-runtime/localbroadcastmanager-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/86e702602053bf07e7763d5b0dd202e5/transformed/print-1.0.0-runtime/print-1.0.0-runtime_dex, /home/runner/.gradle/caches/transforms-3/791ffc7b8c84410fc7552ae20fda9ae2/transformed/jetified-annotation-jvm-1.6.0/jetified-annotation-jvm-1.6.0_dex, /home/runner/.gradle/caches/transforms-3/f1b46d21cb5b6379fd8e148f16cc46e0/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.4/jetified-kotlinx-coroutines-core-jvm-1.6.4_dex, /home/runner/.gradle/caches/transforms-3/cdce648cdcb047eabd946150248cd90c/transformed/jetified-kotlinx-coroutines-android-1.6.4/jetified-kotlinx-coroutines-android-1.6.4_dex, /home/runner/.gradle/caches/transforms-3/1835cbadb0e151ba5e1e3437cee9a3e0/transformed/jetified-kotlin-stdlib-1.9.22/jetified-kotlin-stdlib-1.9.22_dex, /home/runner/.gradle/caches/transforms-3/4b3318b731328e3856545f07099cc4e0/transformed/jetified-annotations-13.0/jetified-annotations-13.0_dex, /home/runner/.gradle/caches/transforms-3/336ce77e9c313bbdaf5a79a9c42e9b50/transformed/jetified-error_prone_annotations-2.15.0/jetified-error_prone_annotations-2.15.0_dex, /home/runner/.gradle/caches/transforms-3/e797d0d12256d86e368c2facef9be9e3/transformed/constraintlayout-solver-2.0.1/constraintlayout-solver-2.0.1_dex, /home/runner/.gradle/caches/transforms-3/0186f423e7fd8082dda9fab8afa8501d/transformed/jetified-listenablefuture-1.0/jetified-listenablefuture-1.0_dex, and from all global synthetics files in 
+Watching 187 directories to track changes
+>>>>>>> Stashed changes
 AAPT2 aapt2-8.2.2-10154469-linux Daemon #0: shutdown
 AAPT2 aapt2-8.2.2-10154469-linux Daemon #1: shutdown
 
@@ -996,5 +1579,9 @@ ERROR: /home/runner/work/Music-Cafeteria-/Music-Cafeteria-/app/src/main/res/mipm
 	... 2 more
 
 
+<<<<<<< Updated upstream
 BUILD FAILED in 1m 13s
+=======
+BUILD FAILED in 1m 15s
+>>>>>>> Stashed changes
 21 actionable tasks: 21 executed
