@@ -26,7 +26,10 @@ class AndroidBridge(private val context: Context, private val activity: MainActi
     /** Called by JS when user enables BG PLAY */
     @JavascriptInterface
     fun enableBgPlay() {
-        activity.runOnUiThread { activity.startBgService() }
+        activity.runOnUiThread {
+            activity.requestBgPermissions()
+            activity.startBgService()
+        }
     }
 
     /** Called by JS when user disables BG PLAY */

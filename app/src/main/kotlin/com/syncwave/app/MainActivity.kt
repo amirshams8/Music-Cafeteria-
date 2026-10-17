@@ -1,20 +1,26 @@
 package com.syncwave.app
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.ServiceConnection
+import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.IBinder
+import android.os.PowerManager
+import android.provider.Settings
 import android.view.View
 import android.webkit.*
 import android.widget.FrameLayout
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +36,11 @@ class MainActivity : AppCompatActivity() {
     // Tracks whether JS has explicitly enabled background play
     private var bgPlayEnabled = false
     private var bgServiceBound = false
+
+    // Android 13+ notification permission. The service runs either way; this only decides whether
+    // the "playing in background" notification is visible. Battery prompt comes after, never on top of it.
+    private val notifPermLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { askBatteryExemption() }
 
     private val bgServiceConnection = object : ServiceConnection {
         override fun onServiceConnected(name: ComponentName?, binder: IBinder?) { bgServiceBound = true }
@@ -167,6 +178,31 @@ class MainActivity : AppCompatActivity() {
         webView.onPause()
         webView.destroy()
         stopBgService()
+    }
+
+    /** Called when the user turns BG PLAY on: notification permission first, then the battery exemption. */
+    fun requestBgPermissions() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+                != PackageManager.PERMISSION_GRANTED
+        ) {
+            notifPermLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+        } else {
+            askBatteryExemption()
+        }
+    }
+
+    // Asked once only (not on every toggle) so it never nags.
+    private fun askBatteryExemption() {
+        val pm = getSystemService(Context.POWER_SERVICE) as PowerManager
+        val prefs = getSharedPreferences("syncwave", Context.MODE_PRIVATE)
+        if (pm.isIgnoringBatteryOptimizations(packageName) || prefs.getBoolean("battery_prompted", false)) return
+        prefs.edit().putBoolean("battery_prompted", true).apply()
+        try {
+            startActivity(
+                Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, Uri.parse("package:$packageName"))
+            )
+        } catch (e: Exception) { /* some OEM builds don't ship this screen */ }
     }
 
     // Public so AndroidBridge can call them from JS
