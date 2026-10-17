@@ -15,6 +15,7 @@ FILE TREE (SELECTED FOLDERS)
 │   │   │   │   │   │   ├── app
 │   │   │   │   │   │   │   ├── AndroidBridge.kt
 │   │   │   │   │   │   │   ├── AudioForegroundService.kt
+│   │   │   │   │   │   │   ├── BgWebView.kt
 │   │   │   │   │   │   │   ├── MainActivity.kt
 │   │   │   ├── res
 │   │   │   │   ├── drawable
@@ -324,6 +325,41 @@ class AudioForegroundService : Service() {
 }
 
 
+//===== FILE: app/src/main/kotlin/com/syncwave/app/BgWebView.kt =====
+package com.syncwave.app
+
+import android.content.Context
+import android.util.AttributeSet
+import android.view.View
+import android.webkit.WebView
+
+/**
+ * WebView that can keep the page "visible" while the app is in the background or the screen is off.
+ *
+ * Diagnosed on-device: with BG PLAY on, the foreground service and wake lock were running, but the moment
+ * the activity stopped Android reported the window as GONE, Chromium marked the page hidden
+ * (document.hidden = true) and the YouTube player paused itself (state 1 -> 2). Reporting VISIBLE to
+ * Chromium while keepAlive is set stops that. keepAlive follows the BG PLAY toggle.
+ */
+class BgWebView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = android.R.attr.webViewStyle
+) : WebView(context, attrs, defStyleAttr) {
+
+    @Volatile
+    var keepAlive: Boolean = false
+
+    override fun onWindowVisibilityChanged(visibility: Int) {
+        if (keepAlive && visibility != View.VISIBLE) {
+            super.onWindowVisibilityChanged(View.VISIBLE)
+        } else {
+            super.onWindowVisibilityChanged(visibility)
+        }
+    }
+}
+
+
 //===== FILE: app/src/main/kotlin/com/syncwave/app/MainActivity.kt =====
 package com.syncwave.app
 
@@ -352,7 +388,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var webView: WebView
+    private lateinit var webView: BgWebView
     private lateinit var swipeRefresh: SwipeRefreshLayout
     private lateinit var progressBar: ProgressBar
     private lateinit var errorView: FrameLayout
@@ -538,6 +574,7 @@ class MainActivity : AppCompatActivity() {
     // Public so AndroidBridge can call them from JS
     fun startBgService() {
         bgPlayEnabled = true
+        webView.keepAlive = true // keep Chromium treating the page as visible so YouTube doesn't pause
         val intent = Intent(this, AudioForegroundService::class.java)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForegroundService(intent)
@@ -551,6 +588,7 @@ class MainActivity : AppCompatActivity() {
 
     fun stopBgService() {
         bgPlayEnabled = false
+        webView.keepAlive = false
         try {
             if (bgServiceBound) {
                 unbindService(bgServiceConnection)
@@ -604,7 +642,7 @@ class MainActivity : AppCompatActivity() {
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <WebView
+        <com.syncwave.app.BgWebView
             android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
