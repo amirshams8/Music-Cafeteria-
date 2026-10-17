@@ -114,7 +114,10 @@ class MainActivity : AppCompatActivity() {
 
             override fun shouldOverrideUrlLoading(view: WebView?, request: WebResourceRequest?): Boolean {
                 val url = request?.url.toString()
-                if (!url.startsWith(serverUrl) && (url.startsWith("http") || url.startsWith("https"))) {
+                // Compare hosts, not string prefixes: http/https, a trailing slash or a path must not
+                // push our own pages out to the browser.
+                val sameHost = request?.url?.host.equals(Uri.parse(serverUrl).host, ignoreCase = true)
+                if (!sameHost && (url.startsWith("http") || url.startsWith("https"))) {
                     startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
                     return true
                 }

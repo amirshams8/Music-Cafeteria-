@@ -14,7 +14,10 @@ android {
         versionCode = 1
         versionName = "1.0.0"
 
-        val serverUrl = System.getenv("SERVER_URL") ?: "http://localhost:3001"
+        // The CI secret may hold a bare domain ("xyz.ngrok-free.dev"); a URL without a scheme made
+        // the WebView hand every page to Chrome. Default to https:// when no scheme is given.
+        val rawUrl = (System.getenv("SERVER_URL") ?: "http://localhost:3001").trim().trimEnd('/')
+        val serverUrl = if (rawUrl.startsWith("http://") || rawUrl.startsWith("https://")) rawUrl else "https://$rawUrl"
         buildConfigField("String", "SERVER_URL", "\"$serverUrl\"")
     }
 
