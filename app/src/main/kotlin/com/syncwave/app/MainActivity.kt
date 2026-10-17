@@ -25,7 +25,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var webView: WebView
+    private lateinit var webView: BgWebView
     private lateinit var swipeRefresh: SwipeRefreshLayout
     private lateinit var progressBar: ProgressBar
     private lateinit var errorView: FrameLayout
@@ -211,6 +211,7 @@ class MainActivity : AppCompatActivity() {
     // Public so AndroidBridge can call them from JS
     fun startBgService() {
         bgPlayEnabled = true
+        webView.keepAlive = true // keep Chromium treating the page as visible so YouTube doesn't pause
         val intent = Intent(this, AudioForegroundService::class.java)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForegroundService(intent)
@@ -224,6 +225,7 @@ class MainActivity : AppCompatActivity() {
 
     fun stopBgService() {
         bgPlayEnabled = false
+        webView.keepAlive = false
         try {
             if (bgServiceBound) {
                 unbindService(bgServiceConnection)
