@@ -792,6 +792,8 @@ jobs:
       - name: Build Debug APK and capture log
         id: gradle_build
         continue-on-error: true
+        env:
+          SERVER_URL: ${{ secrets.SYNCWAVE_SERVER_URL }}
         run: |
           chmod +x ./gradlew
           mkdir -p build_error_logs
